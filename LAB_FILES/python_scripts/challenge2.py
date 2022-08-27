@@ -17,7 +17,7 @@ for pkt in packets:
     http_layer = pkt.getlayer(http.HTTPRequest)
     try:
       # add host and UA string, to lists
-      HT.append(http_layer.fields['Host'].decode('utf-8))
+      HT.append(http_layer.fields['Host'].decode('utf-8'))
       UA.append(http_layer.fields['User_Agent'].decode('utf-8'))
     except Exception as e:
       continue
