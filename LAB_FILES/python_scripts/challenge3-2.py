@@ -11,6 +11,6 @@ for pkt in packets:
     if DNSQR in pkt:
       # print TXT data, ignore errors
       try:
-        print(str(pkt.src)+":"+str(pkt[NDS].an.rdata))
+        print(str(pkt.src)+":"+str(pkt[DNS].an.rdata))
       except:
         continue
