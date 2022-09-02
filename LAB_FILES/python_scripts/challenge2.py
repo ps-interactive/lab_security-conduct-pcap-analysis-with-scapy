@@ -26,7 +26,6 @@ for pkt in packets:
 Hosts = Counter(HT)
 UserAgentStrings = Counter(UA)
 
-# using the counted lists, displat the most common hosts and least common UA strings
+# using the counted lists, display the most common hosts and least common UA strings
 print("Most Common Hosts: ", Hosts.most_common(10))
 print("Least Common User Agent Strings: ", UserAgentStrings.most_common(5)[-1])
-
