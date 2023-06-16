@@ -2,7 +2,7 @@
 from scapy.all import *
 
 # read the packet capture file
-packets = rdpcap("/home/ubuntu/lab/LAB_FILES/exercise1.pcapng")
+packets = rdpcap("/home/pslearner/lab/LAB_FILES/exercise1.pcapng")
 
 # loop through each packet
 for pkt in packets:
