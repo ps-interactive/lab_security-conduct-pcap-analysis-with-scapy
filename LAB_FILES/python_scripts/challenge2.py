@@ -4,7 +4,7 @@ from scapy.layers import http
 from collections import Counter
 
 # read the packet capture file
-packets = rdpcap("/home/ubuntu/lab/LAB_FILES/exercise2.pcapng")
+packets = rdpcap("/home/pslearner/lab/LAB_FILES/exercise2.pcapng")
 
 # two empty lists to store host and UA strings
 HT = []
